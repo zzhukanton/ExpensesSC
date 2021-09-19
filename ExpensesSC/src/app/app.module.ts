@@ -19,6 +19,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { NewEntryComponent } from './new-entry/new-entry.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 // forms
 import { ReactiveFormsModule } from '@angular/forms';
@@ -37,7 +38,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRouterModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatButtonModule, MatTableModule, MatInputModule, MatCardModule, MatSelectModule,
+    MatButtonModule, MatTableModule, MatInputModule, MatCardModule, MatSelectModule, MatToolbarModule,
   ],
   providers: [EntryService],
   bootstrap: [AppComponent]
