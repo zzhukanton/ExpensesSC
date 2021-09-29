@@ -10,7 +10,7 @@ import { EntryElement } from '../interfaces/EntryElement';
 })
 export class EntriesComponent implements OnInit {
 
-  displayedColumns: string[] = ['Description', 'IsExpense', 'Value']
+  displayedColumns: string[] = ['Description', 'IsExpense', 'Value', 'Actions']
   dataSource;
   
   constructor(private service: EntryService) { }
